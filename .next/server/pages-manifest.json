@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/grid-view": "pages/grid-view.js",
+  "/rules--of--play": "pages/rules--of--play.js",
+  "/animator": "pages/animator.js"
+}
