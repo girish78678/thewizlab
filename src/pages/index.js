@@ -4,8 +4,8 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 
 import dynamic from "next/dynamic";
-import Section1 from '../components/swiper';
-import Parents from '../components/Parents';
+import Section1 from "../components/swiper";
+import Parents from "../components/Parents";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -18,179 +18,244 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <div className="nav-header">
-    <Header />
-        </div>
-      <Section1></Section1> 
+      <div className="nav-header">
+        <Header />
+      </div>
+      <Section1></Section1>
       <div className="fun-center">
         <h2>Welcome To</h2>
-        <h1><span className="first-color">Kid's</span> <span className="second-color">Fun</span> <span className="third-color">Center</span></h1>
+        <h1>
+          <span className="first-color">Kid's</span>{" "}
+          <span className="second-color">Fun</span>{" "}
+          <span className="third-color">Center</span>
+        </h1>
         <div className="fun--center--flexbox">
           <div className="flexbox open-session">
-            <img src="/images/fun-center/open-sessions.jpg" alt="open-sessions image" />
+            <img
+              src="/images/fun-center/open-sessions.jpg"
+              alt="open-sessions image"
+            />
             <h3>Open Sessions</h3>
             <p>Non dipopulo ancilae, epic palo eam erasmus se ergo no am.</p>
           </div>
           <div className="flexbox">
-            <img src="/images/fun-center/class-trips.jpg" alt="class-trips image" />
+            <img
+              src="/images/fun-center/class-trips.jpg"
+              alt="class-trips image"
+            />
             <h3>Class Trips</h3>
             <p>Non dipopulo ancilae, epic palo eam erasmus se ergo no am.</p>
           </div>
           <div className="flexbox">
-            <img src="/images/fun-center/birthday-parties.jpg" alt="birthday party image" />
+            <img
+              src="/images/fun-center/birthday-parties.jpg"
+              alt="birthday party image"
+            />
             <h3>Birthday Party's</h3>
             <p>Non dipopulo ancilae, epic palo eam erasmus se ergo no am.</p>
           </div>
         </div>
       </div>
       <div className="new-events">
-      <div className="elementary-image hidden">
-        <img className="blank"src="/images/background-images/pattern.png" alt="aa" />
-      </div>
+        <div className="elementary-image hidden">
+          <img
+            className="blank"
+            src="/images/background-images/pattern.png"
+            alt="aa"
+          />
+        </div>
         <div className="event-video">
-      <div className="elementary-image">
-        <img className="blank"src="/images/background-images/pattern.png" alt="aa" />
-      </div>
-          <div className="event-image kids-image">
-          <img src="/images/fun-center/events.jpg" alt="video"/> 
+          <div className="elementary-image">
+            <img
+              className="blank"
+              src="/images/background-images/pattern.png"
+              alt="aa"
+            />
           </div>
-          <a className= "play--button"itemprop="url" href="https://vimeo.com/13993501" target="_self" data_type="iframe">
-           <img class="qodef-m-image" src="https://playroom.qodeinteractive.com/wp-content/plugins/playroom-core/inc/shortcodes/video-button/assets/img/video-button-play.png" alt="Play icon image"></img>
+          <div className="event-image kids-image">
+            <img src="/images/fun-center/events.jpg" alt="video" />
+          </div>
+          <a
+            className="play--button"
+            itemprop="url"
+            href="https://vimeo.com/13993501"
+            target="_self"
+            data_type="iframe"
+          >
+            <img
+              class="qodef-m-image"
+              src="https://playroom.qodeinteractive.com/wp-content/plugins/playroom-core/inc/shortcodes/video-button/assets/img/video-button-play.png"
+              alt="Play icon image"
+            ></img>
           </a>
         </div>
         <div className="event-text">
           <h2>New Video</h2>
-          <h1><span className="first-color">New</span> <span className="second-color">Approach To</span> <span className="third-color">Fun</span></h1>
-          <p>Tollit referrentur contentiones an sed. Ius tacimates defini tione, quoprimatum dicunt labitur te. Te debet tibique.</p>
+          <h1>
+            <span className="first-color">New</span>{" "}
+            <span className="second-color">Approach To</span>{" "}
+            <span className="third-color">Fun</span>
+          </h1>
+          <p>
+            Tollit referrentur contentiones an sed. Ius tacimates defini tione,
+            quoprimatum dicunt labitur te. Te debet tibique.
+          </p>
           <div className="find-events">
             <a href="https://playroom.qodeinteractive.com/events/month/">
-           <span class="find-events--text">Find Events</span></a>
+              <span class="find-events--text">Find Events</span>
+            </a>
           </div>
         </div>
       </div>
-        <div className="elementary-image bottom-margin">
-        <img className="blank" src="/images/background-images/pattern-2.png" alt="aa" />
+      <div className="elementary-image bottom-margin">
+        <img
+          className="blank"
+          src="/images/background-images/pattern-2.png"
+          alt="aa"
+        />
       </div>
-    
+
       <div className="elementary-image-1 ">
-        <img className="blank"src="/images/homepage/elementary-1.png" alt="aa" />
+        <img
+          className="blank"
+          src="/images/homepage/elementary-1.png"
+          alt="aa"
+        />
       </div>
-    <div className="new-events">
+      <div className="new-events">
         <div className="event-play-section">
           <h2>Come and see</h2>
-          <h1><span className="first-color">Play</span> <span className="second-color">& Learn with</span> <span className="third-color">Us</span></h1>
-          <p>Lorem ipsum dolor sit amet, an aeque vitupera tori has, sed eta solumstemst maluisset at, ad mei ecco hinc indoctum. </p>
+          <h1>
+            <span className="first-color">Play</span>{" "}
+            <span className="second-color">& Learn with</span>{" "}
+            <span className="third-color">Us</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, an aeque vitupera tori has, sed eta
+            solumstemst maluisset at, ad mei ecco hinc indoctum.{" "}
+          </p>
           <div className="exp-flexbox">
-          <div className="experience">
-            
+            <div className="experience">
               <h3>Experience </h3>
+            </div>
+            <div className="percentage">95%</div>
           </div>
-              <div className="percentage">95%</div>
-          </div>
-           <div className="experience--bar"></div>
-           <div className="create-flexbox">
-
-          <div className="creativity">
+          <div className="experience--bar"></div>
+          <div className="create-flexbox">
+            <div className="creativity">
               <h3>Creativity</h3>
-              </div>
-              <div className="percentage-70">70%</div>
-           </div>
-           <div className="creativity--bar"></div>
+            </div>
+            <div className="percentage-70">70%</div>
           </div>
-     
+          <div className="creativity--bar"></div>
+        </div>
+
         <div className="event-video">
           <div className="event-image kids-image">
-          <img src="/images/homepage/trekking.jpg" alt="trekking image"/> 
+            <img src="/images/homepage/trekking.jpg" alt="trekking image" />
           </div>
         </div>
       </div>
-        <div className="elementary-image-2 ">
-        <img className="blank elementary-2" src="/images/background-images/pattern-2.png" alt="aa" />
+      <div className="elementary-image-2 ">
+        <img
+          className="blank elementary-2"
+          src="/images/background-images/pattern-2.png"
+          alt="aa"
+        />
       </div>
       <div className="happy-parents">
         <h3>What They Say</h3>
-        <h2> <span className="first-color">Our</span> <span className="second-color">Happy</span> <span className="third-color">Parents</span></h2>
+        <h2>
+          <span className="first-color">Our</span>
+          <span className="second-color">Happy</span>
+          <span className="third-color">Parents</span>
+        </h2>
       </div>
       <div className="swiper--2">
         <Parents />
       </div>
 
-<div className="activities-container">
+      <div className="activities-container">
+        <div className="activites">
+          <div className="activities--heading">
+            <h3>These are our </h3>
+            <h2>
+              <span className="second-color"> Upcoming</span>
+              <span className="third-color"> Events </span>
+            </h2>
+            <p>
+              Mel utinam nibh suscipit, vidisse tibique offendit. Quis nostrud
+              admodumem. Mel nibh suscipit, deleniti.
+            </p>
+          </div>
 
-    <div className="activites">
-      <div className="activities--heading">
-        <h3>These are our </h3>
-        <h2><span className="second-color"> Upcoming</span ><span className="third-color"> Events </span></h2>
-        <p>Mel utinam nibh suscipit, vidisse tibique offendit. Quis nostrud admodumem. Mel nibh suscipit, deleniti.</p>
-      </div>
-        
-      <div className="edof-wrapper">
-
-       <div className="upcoming-container">
-        <div className="new--even-flex">
-
-          <div className="date-holder">
-          <h3>30.</h3>
-          Oct
-           </div>
-          <div className="event-slider-content">
-            <h4>Hallowen Party</h4>
-            <div className="info-bottom">
-             <div className="info-category"><p>Party/</p>
-             </div>
-            <div className="event-list-time">
-             <p>12:00 Am to 11:59 Pm</p>
+          <div className="edof-wrapper">
+            <div className="upcoming-container">
+              <div className="new--even-flex">
+                <div className="date-holder">
+                  <h3>30.</h3>
+                  Oct
+                </div>
+                <div className="event-slider-content">
+                  <h4>Hallowen Party</h4>
+                  <div className="info-bottom">
+                    <div className="info-category">
+                      <p>Party/</p>
+                    </div>
+                    <div className="event-list-time">
+                      <p>12:00 Am to 11:59 Pm</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="upcoming-container">
+                <div className="new--even-flex">
+                  <div className="date-holder">
+                    <h3>19.</h3>
+                    Dec
+                  </div>
+                  <div className="event-slider-content">
+                    <h4>Arts and Crafts</h4>
+                    <div className="info-bottom">
+                      <div className="info-category">
+                        <p>Toddlers/</p>
+                      </div>
+                      <div className="event-list-time">
+                        <p>12:30 pm to 1:30 Pm</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="upcoming-container">
+                <div className="new--even-flex">
+                  <div className="date-holder">
+                    <h3>17.</h3>
+                    Nov
+                  </div>
+                  <div className="event-slider-content">
+                    <h4>Trampolines</h4>
+                    <div className="info-bottom">
+                      <div className="info-category">
+                        <p>Outdoor/</p>
+                      </div>
+                      <div className="event-list-time">
+                        <p>8:00 Am to 5:00 Pm</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="upcoming-container">
-      <div className="new--even-flex">
-          <div className="date-holder">
-          <h3>19.</h3>
-          Dec
-           </div>
-          <div className="event-slider-content">
-            <h4>Arts and Crafts</h4>
-            <div className="info-bottom">
-             <div className="info-category"><p>Toddlers/</p>
-             </div>
-            <div className="event-list-time">
-             <p>12:30 pm to 1:30 Pm</p>
-            </div>
-          </div>
-      </div>
-          </div>
-      </div>
-      <div className="upcoming-container">
-      <div className="new--even-flex">
-          <div className="date-holder">
-          <h3>17.</h3>
-          Nov
-           </div>
-          <div className="event-slider-content">
-            <h4>Trampolines</h4>
-            <div className="info-bottom">
-             <div className="info-category"><p>Outdoor/</p>
-             </div>
-            <div className="event-list-time">
-             <p>8:00 Am to 5:00 Pm</p>
-            </div>
-          </div>
-      </div>
-      </div>
-  </div>
-  </div>
-  </div>
-</div>
-  <div className="activites-image">
-    <img src="images/homepage/halloween.jpg" alt="activities" />
-  </div>
+        <div className="activites-image">
+          <img src="images/homepage/halloween.jpg" alt="activities" />
+        </div>
       </div>
       <div className="footer-sec">
-      <Footer />
+        <Footer />
       </div>
-  
     </>
   );
 }

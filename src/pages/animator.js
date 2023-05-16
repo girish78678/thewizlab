@@ -4,7 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
-export default function GridHome() {
+export default function Animator() {
   return (
     <>
       <Head>
@@ -23,8 +23,8 @@ export default function GridHome() {
           <div className="animator--text">
             <h3>Welcome to Playroom</h3>
             <h1>
-              <span className="first-color">Meet</span>{" "}
-              <span className="second-color">Your</span>{" "}
+              <span className="first-color">Meet</span>
+              <span className="second-color">Your</span>
               <span className="third-color">Animator</span>
             </h1>
             <p>
@@ -110,7 +110,9 @@ export default function GridHome() {
             </div>
           </div>
         </div>
+
       </footer>
+     
     </>
   );
 }

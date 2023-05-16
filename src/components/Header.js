@@ -28,19 +28,23 @@ const Header = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/pages">Pages</Link>
+                <Link href="/pricing-plans">Pricing Plans</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/events">Events</Link>
-              </li>
+              </li> */}
+             
               <li>
-                <Link href="/blog">Blog</Link>
+                <Link href="/book-an-app">Book A Party</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/shop">Shop</Link>
+              </li> */}
+              <li>
+                <Link href="/about-us">About Us</Link>
               </li>
               <li>
-                <Link href="/landing">Landing</Link>
+                <Link href="/contact-us">Contact Us</Link>
               </li>
               <li>
                 <Link href="/grid-view">Grid Home</Link>
@@ -60,3 +64,4 @@ const Header = () => {
     };
     
     export default Header;
+    
