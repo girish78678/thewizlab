@@ -2597,7 +2597,68 @@ padding-bottom: 4%;
     width: 200%;
     background-color: #F6E3DB !important;
 }
+.work--day--flx{
+    color: #444;
 
+}
+.work-days{
+    display: flex;
+justify-content: space-between;
+display: flex;
+align-items: baseline;
+margin-bottom: 15px;
+padding-bottom: 17px;
+border-bottom: 1px dashed #f4c7af;
+}
+.event-play-section h2{
+    color: #444;
+}
+.work--hours{
+    background-color: #F6F1E4 !important;
+    padding-top: 0%;
+}
+.work--hours h2{
+    margin:18px auto 10px;
+    font-weight: 900;
+   }
+.work--hours h3{
+ margin:18px auto 10px;
+ font-family: Raleway;
+}
+.work--hours h1{
+    margin: 21px auto;
+}
+.slides{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 4px;
+    padding: 4px;
+    margin-bottom: 60px;
+}
+.slides img{
+    border-radius: 4%;
+}
+.swiper-slide{
+    margin-right: 15px;
+}
+.slide--show-1 img{
+    border-radius: 4%;
+    width: 120%;
+}
+.slide--show-2 img{
+    border-radius: 4%;
+    width: 140%;
+}
+.react-calendar__navigation{
+    background-color:#C3E1DB !important ;
+}
+
+
+.react-calendar__month-view__weekdays__weekday{
+    background-color: #fff;
+    text-decoration: none;
+}
 @media screen and (min-width: 568px) {
     .Book--hero{
         height: 28vw;
@@ -2608,10 +2669,63 @@ padding-bottom: 4%;
         display: block;
         margin: 10% auto;
       }
-    }
+    
     .react-calendar{
         width: 200% !important;
     }
+    .work--day--flx{
+    display: flex;
+    flex-direction: column;
+    }
+    .slides{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        gap: 20px;
+        padding: 12px;
+        margin-bottom: 60px;
+    }
+    .slide--show-1 img{
+        border-radius: 4%;
+        width: 100%;
+    }
+    .slide--show-2 img{
+        border-radius: 4%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+.calendar--flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px auto 150px;
+  }
+
+.work--hours{
+    width: 53%;
+    margin-top: 0px;
+}
+.calendar {
+    background-color: #F6F1E4;
+    width: 39%;
+    display: block;
+    margin: auto;
+  }
+  .slides{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 20px;
+    padding: 17px;
+    margin-bottom: 60px;
+}
+
+}
 
 
 

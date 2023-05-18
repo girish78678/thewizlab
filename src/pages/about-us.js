@@ -141,9 +141,9 @@ export default function Abouts() {
           <div className="event-play-section">
             <h2>Education & Play</h2>
             <h1>
-              <span className="first-color">Kids'</span>
-              <span className="second-color">Fun & Play</span>
-              <span className="third-color">Space</span>
+              <span className="first-color">Kid's </span> 
+              <span className="second-color">Fun & Play </span> 
+              <span className="third-color"> Space</span> 
             </h1>
             <p>
               Partem deserunt inciderint euismod noluisse has in, persiusem de
