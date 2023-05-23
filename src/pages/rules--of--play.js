@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import Header from "@/components/Header";
+import FadeMenu from "@/components/material";
 import dynamic from "next/dynamic";
 import Footer from "../components/Footer";
 export default function ROP() {
@@ -41,32 +42,29 @@ export default function ROP() {
             </Link>
           </div>
       
-            <div className="nav-links">
-            <ul className="no-bullets">
+          <div className="nav-links">
+            <ul className = "no-bullets">
               <li>
                 <Link href="/">Home</Link>
               </li>
-     
               <li>
-                <Link href="/events">Events</Link>
+                <Link href="#"><FadeMenu /></Link>
               </li>
               <li>
-                <Link href="/blog">Blog</Link>
+                <Link href="/Blog">Blog</Link>
               </li>
+
               <li>
                 <Link href="/shop">Shop</Link>
-              </li>
+                 </li> 
               <li>
                 <Link href="/grid-view">Grid Home</Link>
               </li>
               <li>
-                <Link href="/animator">Animator</Link>
-              </li>
-              <li>
-                <Link href="/rules--of--play">Rules Of Play</Link>
+                <Link href="/Events">Events</Link>
               </li>
             </ul>
-            </div>
+          </div>
             </div>
         
         </header>

@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
+import FadeMenu from "@/components/material";
 import Footer from "../components/Footer";
 import Slideshow from "../components/slideshow";
 export default function Plans() {
@@ -30,7 +31,7 @@ export default function Plans() {
                 className="closebtn"
                 onClick={() => closeNav()}
               >
-                ×
+                
               </a>
               <a className="no--border" href="#home">
                 Home
@@ -39,7 +40,7 @@ export default function Plans() {
                 Pages
               </a>
               <a href="#" className="nav-link">
-                Events{" "}
+                Events
               </a>
               <a href="#" className="nav-link">
                 Blog
@@ -63,31 +64,28 @@ export default function Plans() {
             </div>
 
             <div className="nav-links">
-              <ul className="no-bullets">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
+            <ul className = "no-bullets">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="#"><FadeMenu /></Link>
+              </li>
+              <li>
+                <Link href="/Blog">Blog</Link>
+              </li>
 
-                <li>
-                  <Link href="/events">Events</Link>
-                </li>
-                <li>
-                  <Link href="/blog">Blog</Link>
-                </li>
-                <li>
-                  <Link href="/shop">Shop</Link>
-                </li>
-                <li>
-                  <Link href="/grid-view">Grid Home</Link>
-                </li>
-                <li>
-                  <Link href="/animator">Animator</Link>
-                </li>
-                <li>
-                  <Link href="/rules--of--play">Rules Of Play</Link>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <Link href="/shop">Shop</Link>
+                 </li> 
+              <li>
+                <Link href="/grid-view">Grid Home</Link>
+              </li>
+              <li>
+                <Link href="/Events">Events</Link>
+              </li>
+            </ul>
+          </div>
           </div>
         </header>
         <div className="ROP--hero">
@@ -101,8 +99,8 @@ export default function Plans() {
           <div className=" event-play-section event-play-section--2">
             <h2>Play and Fun kids</h2>
             <h1>
-              <span className="first-color">Kids'</span>
-              <span className="second-color">Fun & Play</span>
+              <span className="first-color">Kid's </span> 
+              <span className="second-color">Fun & Play </span> 
               <span className="third-color">Space</span>
             </h1>
             <p>

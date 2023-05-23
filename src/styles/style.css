@@ -1144,6 +1144,7 @@ width: 70%;
 .my-card img {
     width: 100%;
     display: block;
+    border-radius: 2% 2% 0px 0px;
 }
 
 .my-card-content {
@@ -1932,7 +1933,8 @@ p {
     width: 100%;
     background-repeat: no-repeat;
     background-color: #8DC8AE !important;
-    height: 26vw;
+    height: 41vw;
+
 }
 
 .animators--head {
@@ -2117,7 +2119,11 @@ input[type="checkbox"]:checked::before {
     padding: 0;
 }
 
-
+@media screen and (max-width: 568px) {
+    .about--us--hero{
+        height: 41vw;
+    }
+}
 @media screen and (min-width: 500px) {
     .animator__flexbox {
         display: flex;
@@ -2186,6 +2192,10 @@ input[type="checkbox"]:checked::before {
 
     .map--size {
         width: 600px;
+    }
+    .map--text{
+        width: 45%;
+padding: 2% 0% 0px 10%;
     }
 
 }
@@ -2639,9 +2649,7 @@ border-bottom: 1px dashed #f4c7af;
 .slides img{
     border-radius: 4%;
 }
-.swiper-slide{
-    margin-right: 15px;
-}
+
 .slide--show-1 img{
     border-radius: 4%;
     width: 120%;
@@ -2727,5 +2735,36 @@ border-bottom: 1px dashed #f4c7af;
 
 }
 
+/* Blog */
 
+.blog-flex{
+ display: flex;   
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+}
+.my--card__item{
+    width: 100%;
+    box-shadow: none;
+    padding: 4%;
+}
 
+.blog{
+    background-color: #fff;
+}
+.blog--head{
+    display: flex;
+    justify-content: space-evenly;
+    padding:  0% 10%  0% 10%;
+}
+.pages-menu{
+    color:#444;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: black;
+    text-decoration: none;
+    background: none;
+    font-weight: 500;
+    padding: 0px 0px 1px 0px;
+    font-size: 18px !important;
+    align-self: center;
+}

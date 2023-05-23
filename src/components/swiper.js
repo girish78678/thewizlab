@@ -21,6 +21,7 @@ export default function section1() {
     modules={[Navigation, Pagination, Scrollbar, A11y]}
     spaceBetween={60}
     slidesPerView={1}
+    loop={true}
     navigation
     pagination={{ clickable: true }}
     onSwiper={(swiper) => console.log(swiper)}

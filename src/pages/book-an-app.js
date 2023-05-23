@@ -5,6 +5,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
 import Calendardates from "@/components/calender";
+import FadeMenu from "@/components/material";
 import Footer from "@/components/Footer";
 import Reverseshow from "@/components/reverse-slide";
 import Slidesshow from "@/components/new-slides";
@@ -64,31 +65,28 @@ export default function BookAppointment() {
             </div>
 
             <div className="nav-links">
-              <ul className="no-bullets">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
+            <ul className = "no-bullets">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="#"><FadeMenu /></Link>
+              </li>
+              <li>
+                <Link href="/Blog">Blog</Link>
+              </li>
 
-                <li>
-                  <Link href="/events">Events</Link>
-                </li>
-                <li>
-                  <Link href="/blog">Blog</Link>
-                </li>
-                <li>
-                  <Link href="/shop">Shop</Link>
-                </li>
-                <li>
-                  <Link href="/grid-view">Grid Home</Link>
-                </li>
-                <li>
-                  <Link href="/animator">Animator</Link>
-                </li>
-                <li>
-                  <Link href="/rules--of--play">Rules Of Play</Link>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <Link href="/shop">Shop</Link>
+                 </li> 
+              <li>
+                <Link href="/grid-view">Grid Home</Link>
+              </li>
+              <li>
+                <Link href="/Events">Events</Link>
+              </li>
+            </ul>
+          </div>
           </div>
         </header>
         <div className=" Book--hero ">

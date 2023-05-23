@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Head from "next/head.js";
+import FadeMenu from "./material";
+
 const Header = () => {
   return(
     <header>
@@ -23,37 +25,25 @@ const Header = () => {
                 <button class="openbtn"> ☰ </button>
                 
           <div className="nav-links">
-            < ul className = "no-bullets">
+            <ul className = "no-bullets">
               <li>
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/pricing-plans">Pricing Plans</Link>
+                <Link href="#"><FadeMenu /></Link>
               </li>
-              {/* <li>
-                <Link href="/events">Events</Link>
-              </li> */}
-             
               <li>
-                <Link href="/book-an-app">Book A Party</Link>
+                <Link href="/Blog">Blog</Link>
               </li>
-              {/* <li>
+
+              <li>
                 <Link href="/shop">Shop</Link>
-              </li> */}
-              <li>
-                <Link href="/about-us">About Us</Link>
-              </li>
-              <li>
-                <Link href="/contact-us">Contact Us</Link>
-              </li>
+                 </li> 
               <li>
                 <Link href="/grid-view">Grid Home</Link>
               </li>
               <li>
-                <Link href="/animator">Animator</Link>
-              </li>
-              <li>
-                <Link href="/rules--of--play">Rules Of Play</Link>
+                <Link href="/Events">Events</Link>
               </li>
             </ul>
           </div>

@@ -166,9 +166,9 @@ export default function Home() {
       <div className="happy-parents">
         <h3>What They Say</h3>
         <h2>
-          <span className="first-color">Our</span>
-          <span className="second-color">Happy</span>
-          <span className="third-color">Parents</span>
+          <span className="first-color">Our </span> 
+          <span className="second-color">Happy </span>
+          <span className="third-color">Parents </span>
         </h2>
       </div>
       <div className="swiper--2">
